@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Bebas Neue',sans-serif ;
+color: aliceblue;
+}
+html{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background:  url(./28206639-uma-logotipo-projeto-para-uma-comida-rapida-restaurante-hamburger-suave-beber-e-fritas-vetor.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+header{
+  background-color: #D92B04;
+  border: none;
+  overflow: hidden;
+  border: 3px none;
+
+}
+
+
+
+
+
+header .menubar{
+    text-align: center;
+    height: 40px;
+    padding: 5px opx 5px 0px ;
+}
+
+header .menubar .menuheader{
+    display: inline-flex;
+    
+}
+header .menubar .menuheader li {
+    list-style: none;
+    text-align: justify;
+    width: 120px;
+    margin: 0px 5px 0px 5px;
+    padding: 10px 0px 0px 0px;
+     
+}
+header .menubar .menuheader li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 5px;
+    margin-bottom: 5px;
+    
+
+}
+
+
+header .menubar .menuheader li a:hover{
+ background-color:#DB9D2C;
+ border-radius: 3px;
+}
+
+.submenu1{
+    display: none;
+}
+header .menubar .menuheader li a:hover .submenu1{
+    display: block;
+    position: absolute;
+}

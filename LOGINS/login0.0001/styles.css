@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin:0;
+  padding:0 ;
+  box-sizing:border-box;
+  font-family: 'Poppins', Sans-Serif;
+  
+}
+
+body{
+   background-image: url('https://assets.onecompiler.app/436quwnxd/436weunhx/gyn.jpg');
+  /*background-color: #BFBFBF;*/
+  background-position:center ;
+  background-size: cover ;
+}
+
+a{
+  text-decoration: none ;
+  color: #0D0D0D;
+  font-size: 17px;
+ font-weight: bold;
+  
+}
+
+a:hover{
+  color: #F2D541;
+  text-decoration: underline;
+  font-weight:  bold;
+  
+}
+
+.telatotal{
+  width: 100%;
+  min-height:100vh ;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  
+}
+
+
+.box-father{
+  position: relative;
+  width: 450px;
+  backdrop-filter: blur(25px);
+  border:2px solid #fff ;
+  border-radius: 15px;
+  padding: 7.5em 2.5em 4em 2.5em;
+  color: #fff;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+
+.titlelogin{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translatex(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#F2D541 ;
+  width: 140px;
+  height: 70px;
+  border-radius: 0 0 20px 20px ;
+  color: black;
+}
+.titlelogin span{
+  font-size: 30px;
+  font-weight:bold;
+}
+.inputbox{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  
+}
+
+.inputfield{
+  width:100% ;
+  height:55px ;
+  font-size: 16px;
+  background-color:transparent ;
+  color:white;
+  padding-inline: 20px 50px;
+  border: 2px solid #F2D541;
+  border-radius:30px ;
+  outline: none;
+  }
+  
+ 
+    .rememberfather{
+      display: flex;
+      font-size: 16px;
+     
+    }
+    .label{
+      color: #F2E744;
+      padding: 0px 10px 0px 5px ;
+    }
+    
+    
+    .button{
+      padding: 15px;
+      
+    }
+    
+  .inputsub{
+    width: 100%;
+    height: 50px;
+    font-size:17px ;
+    font-weight:bold ;
+    background-color:#F2E744 ;
+    border-radius: 30px;
+    border:none;
+    transition: 0.3s;
+  }  
+    .inputsub:hover{
+      background-color: #0D0D0D;
+      color:#F2E744 ;
+      
+      
+    }
+    .register{
+      text-align: center;    
+      
+      
+    }
+    

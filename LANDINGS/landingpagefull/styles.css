@@ -1,0 +1,146 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', Sans-Serif;
+}
+
+html{
+  width:100vw ;
+  height:100vh ;
+  font-size: 62.5%;
+  color: #fff;
+}
+
+body{
+  background: url(https://assets.onecompiler.app/436quwnxd/436wskynx/gym-background.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header{
+  width: 100%;
+  height:7vh ;
+  background-color: rgba(22, 22, 22, 0.2);
+}
+
+.menu{
+  text-transform:uppercase ;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+}
+
+.logo{
+  letter-spacing: 0.4rem;
+  cursor: pointer;
+}
+
+.menu .navheader .listheader{
+  display: flex;
+  list-style: none;
+}
+
+.menu .navheader .listheader a{
+  text-decoration: none;
+  color: #fff;
+  padding: 1.5rem;
+  position: relative;
+}
+  
+.menu .navheader .listheader a:before{
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 0px;
+  height:1px ;
+  background-color: rgba(251, 255, 0);
+  transition: all 1.5s ease;
+}
+  
+  .menu .navheader .listheader a:hover:before{
+    width: 100%;
+}
+main{
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main .telaprincipal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+  main .telaprincipal .textoprincipal{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+   main .telaprincipal .textosecundario{
+     margin-bottom: 7rem;
+     color: rgba(165, 165, 165);
+     text-transform: uppercase ;
+   }
+   
+   .buttonfather{
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+   }
+  
+  .buttonfather button{
+    width:250px;
+    height:60px ;
+    cursor: pointer;
+    border: 1px solid white;
+    color: white;
+    text-transform:uppercase ;
+    background-color: transparent;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    transition:1,5s ;
+  }
+  
+   .buttonfather button:hover{
+     color: rgb(251, 255,0 );
+   }
+  
+  
+  .buttonfather button:before{
+    content: '';
+    border-radius: 20px;
+    bottom:0 ;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 60px;
+    background-color: rgb(61, 61, 61);
+    z-index: -1;
+    transition: 1s;
+    
+  }
+  
+  .buttonfather button:hover:before{
+    width: 100%;
+  }
+  
+  
+  
+  
+  
+  
+  
