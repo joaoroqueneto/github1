@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box ;
+  font-family: arial;
+}
+html {
+height: 500vh;
+}
+body{
+width: 100%;
+height: 2000vh;
+background-size: cover;
+background-position: center center;
+background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)5%), url(https://assets.onecompiler.app/436quwnxd/437aubrp5/doom-eternal-hd-5ssxsn55pwcicsi7.jpg) no-repeat;
+}
+
+a{
+ color: white;
+ text-decoration: none;
+ letter-spacing: 2px;
+ font-size: 17px;
+ font-weight: bold;
+ 
+}
+.header{
+  width: 100%;
+  height: 80px;
+  /*background: black;*/
+  
+  
+  position: fixed;
+  
+}
+header.rolagem{
+  background-color: black;
+  background:rgba(0, 0, 0, 0.5) ;
+  
+}
+header.rolagem a{
+  color: #BF3415;
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.header .container .logo{
+  margin:20px 0px 0px 15px;
+  text-transform: uppercase;
+}
+.header .container .navbar ul{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.header .container .navbar ul li{
+  margin: 20px 40px 0px 0px ;
+  list-style: none;
+  display: inline-block;
+}
+.banner{
+  height: 100vh;
+ background-position: center;
+ background-size: cover;
+ background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(https://assets.onecompiler.app/436quwnxd/437aubrp5/doom-eternal-hd-5ssxsn55pwcicsi7.jpg) no-repeat;
+}
+
+.header .container .btncontato{
+  height:80px ;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 15px;
+  
+}
+.header .container .btncontato .btncontato1{
+  width: 100px;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #BF3415;
+  color: white;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

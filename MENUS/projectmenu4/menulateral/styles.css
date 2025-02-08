@@ -1,0 +1,66 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+body{
+  height:900vh;
+  background: black;
+}
+.menulateral{
+  width: 70px;
+  height: 100%;
+  background: black;
+  padding: 40px 0px 40px 1%;
+  box-shadow: 3px 0px 0px  #44A6A6;
+  position: fixed;
+  top: 0;
+  left:0;
+  overflow: hidden;
+  transition: .5s;
+}
+.menulateral:hover{
+  width: 300px;
+}
+nav .btnexpandir{
+  width: 100%;
+  padding: 0px 0px 0px 10px;
+ 
+}
+nav .btnexpandir > i{
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+.lista ul {
+  height: 100%;
+  list-style: none;
+  
+}
+
+.lista ul li.itemmenu{
+  transition: .55s;
+}
+
+.lista ul li.itemmenu:hover{
+  
+  background:#44A6A6 ;
+}
+
+.lista ul .itemmenu a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 4%;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 40px;
+}
+.lista ul .itemmenu a .txtlink{
+  margin-left: 40px;
+}
+.lista ul .itemmenu a .icon > i{
+  font-size: 35px;
+  
+}
