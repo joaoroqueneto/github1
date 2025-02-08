@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+body{
+   height:100vh ; 
+   background:linear-gradient( to bottom, rgba(17, 17, 17, 0.651), rgba(20, 20, 20, 0.74)  ), url(./dead-space-4k-pqfdsvu6brt5oczm.jpg);
+   background-position: center center;
+   background-size: cover;
+}
+header{
+    position: relative;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0.719);
+
+}
+header .navbar{
+    width: 100%;
+    height: 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .navbar .logo a{
+font-size: 30px;
+letter-spacing: 3px;
+font-weight: bold;
+text-decoration: none;
+transition: .5s;
+}
+header .navbar .logo a:hover{
+    opacity: 0.3;
+}
+header .navbar .links{
+    display: flex;
+    gap: 2rem;
+}
+
+header .navbar .links li{
+    list-style: none;
+}
+header nav .links li a{
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 2px;
+    transition: .5s;
+}
+header nav .links li a:hover{
+    opacity: 0.3;
+}
+header nav .actionbtn{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+header nav .actionbtn:hover{
+    opacity: 0.5;
+}
+header nav .actionbtn:active{
+    scale: 0.95;
+}
+
+header nav .togglebtn{
+    color: aliceblue;
+    font-size: 25px;
+    cursor: pointer;
+    transition: .5s;
+    display: none;
+}
+header nav .togglebtn:hover{
+    opacity: 0.3;
+}
+@media(max-width:900px){
+    }
+
+
