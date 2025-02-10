@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+width: 100%;
+height: 2000vh;
+background-size: cover;
+background-position: center center;
+background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)5%), url(https://assets.onecompiler.app/436quwnxd/437aubrp5/doom-eternal-hd-5ssxsn55pwcicsi7.jpg) no-repeat;
+}
+nav{
+  background: black;
+}
+nav li{
+  display: inline-block;
+}
+nav li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+nav li a:hover{
+  background: red;
+}
+
+
+.dropdownmenu{
+  position: absolute;
+  display: none;
+}
+.dropdownmenu a{
+  display: block;
+  color: black;
+}
+.dropdown:hover .dropdownmenu{
+  display: block;
+}
