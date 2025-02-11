@@ -62,14 +62,24 @@ nav a{
     padding:0px 10px;
     text-decoration:none ;
     transition-duration: 0,5s;
-    text-shadow:2px 2px 0px rgba(0, 0, 0, 0.39) ;
+    /*text-shadow:2px 2px 0px rgba(0, 0, 0, 0.39) ;*/
+    transition:  .3s ;
 }
 nav a:hover{
     text-decoration: underline;
     color: #F2E422;
     background-color:#262626;
     border-radius: 3px;
+    
 
+}
+nav a:active{
+    letter-spacing: 2px;
+    color: #F2E422;
+    
+}
+nav a::after{
+    color: #F2E422;
 }
 main{
     background-color: #F2E422;
