@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background: url(https://assets.onecompiler.app/436quwnxd/438xvjdmw/92112647-roupas-de-mulher-na-loja-loja-de-moda-centro-comercial.jpg) no-repeat;
+}
+
+
+
+header{
+  position: fixed;
+  width: 100%;
+  height: 80px;
+  z-index: 999;
+   background: rgba(0, 0, 0, 0.49);
+ 
+  
+}
+header .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+  
+}
+
+header .navbar .logo{
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  gap:35px;
+  text-decoration: none;
+  color: #fff;
+  
+}
+header .navbar .logo h2{
+  font-size: 27px;
+  color: #fff;
+  
+}
+
+
+
+header .navbar .links{
+  display: flex;
+  list-style: none;
+  
+}
+header .navbar .links li{
+  margin: 0px 20px;
+  
+}
+header .navbar .links li a {
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 500;
+  color: #fff;
+}
+header .navbar .links li a:hover{
+  color: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
