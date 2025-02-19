@@ -1,0 +1,362 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    height: 100vh;
+    
+}
+body{
+
+    background-position: center;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.678), rgba(0, 0, 0, 0.26)), url(https://assets.onecompiler.app/436quwnxd/437aubrp5/doom-eternal-hd-5ssxsn55pwcicsi7.jpg) no-repeat;
+    background-size:cover;
+}
+header{
+    
+    background: rgba(0, 0, 0, 0.473);
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.75);
+    position: fixed;
+}
+
+header .hamburguer{
+position: relative;
+  
+  left: 20px;
+}
+header .hamburguer i{
+  font-size: 50px;
+  color:  #fff;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color:#F26A1B;
+  box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.75);
+  visibility: hidden;
+}
+
+header .logo i{
+    font-size: 50px;
+    transition: .55s;
+    margin-left: 20px;
+    color:  #fff;
+    cursor: pointer;
+    border-radius: 50px;
+    padding: 10px;
+    background-color:#F26A1B;
+    box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.75);
+    z-index:2;
+}
+
+.navbar{
+    
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .navbar .linkmenu1{
+    
+    display: flex;
+    list-style: none;
+}
+header .navbar .linkmenu1 li a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color:#F26A1B;
+    transition:  .55s ;
+    text-transform: uppercase;
+    padding: 5px;
+    border-radius: 20px;
+   
+   
+}
+header .navbar .linkmenu1 li a:hover{
+   background-color:#F26A1B;
+    color:#fff;
+    line-height: 10px;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: -1px 7px 6px -1px rgba(0,0,0,0.75);
+    letter-spacing: 3px;
+}
+header .navbar .linkmenu2{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    
+}
+header .navbar .linkmenu2 li a{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    
+    color: #fff;
+    transition:  .55s ;
+    text-transform: uppercase;
+    padding: 20px;
+    border-radius: 50%;
+    line-height: 15px;
+}
+
+header .navbar .linkmenu2 li a:hover{
+   
+    color:#F26A1B;
+    line-height: 10px;
+    font-weight: 700;
+    padding: 20px;
+    border-radius: 50%;
+    
+   
+}
+header .navbar .linkmenu2 li a i{
+  font-size: 30px;
+  position: relative;
+  top: 5px;
+  z-index: 500;
+}
+
+.login{
+  position: relative;
+  top: 250px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #F26A1B;
+  padding: 30px 30px 30px 30px ;
+  z-index: 9;
+}
+.login .login-box {
+  border: none;
+  width: 400px;
+  height: 500px;
+  border-radius:10px ;
+  background: rgba(0, 0, 0, 0.473);
+  outline: none;
+  box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+  
+}
+.login .login-box h1{
+  text-align: center;
+  color:#F26A1B ;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 30px 0px;
+  font-size: 2.5rem;
+  cursor: pointer;
+  
+}
+.login .login-box .login-flex{
+  position: relative ;
+  top: 50px;
+ left: 23px;
+ 
+ 
+}
+.login .login-box .login-flex .email{
+  width: 100%;
+  padding-bottom: 20px;
+  
+}
+.login .login-box .login-flex .email span i{
+font-size: 21px;
+margin-right:5px ;
+position: relative;
+top: 5px;
+}
+.login .login-box .login-flex .email #input-email{
+  border:2px  solid rgba(76,76,76,1) ;
+  background: transparent;
+  width: 300px ;
+  height: 50px;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.login .login-box .login-flex .senha span i{
+font-size: 21px;
+margin-right:5px ;
+position: relative;
+top: 5px;
+margin-bottom:30px ;
+}
+.login .login-box .login-flex .senha #input-senha{
+  border:2px  solid rgba(76,76,76,1) ;
+  background: transparent;
+  width: 300px ;
+  height: 50px;
+  padding-left: 15px;
+  outline: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 17px;
+  font-weight: 700;
+  box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+}
+.login .login-box .login-flex .remember{
+  width: 100%;
+  padding: 1px 0px 50px 45px;
+  font-size: 17px;
+  font-weight: 700;
+  
+}
+.login .login-box .login-flex .btn button{
+  width: 305px;
+  position: relative;
+  left: 23px;
+  height:50px;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 6px 7px 5px 0px rgba(0,0,0,0.75);
+  background: #F26A1B;
+  color: rgba(76,76,76,1);
+  color: white;
+  font-size: 19px;
+}
+.login .login-box .login-flex .forgot{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px 0px 45px;
+}
+.login .login-box .login-flex .forgot span a{
+  color: white;
+  text-decoration: none;
+  transition: .55s;
+}
+.login .login-box .login-flex .forgot span a:hover{
+  color: #F26A1B;
+  font-size: 17px;
+}
+footer{
+  width: 100%;
+  height: 180px;
+  background: #333;
+  position: relative;
+  top: 295px;
+  margin: 150px 0px;
+}
+
+
+@media(max-width:950px){
+   header .logo i{
+    visibility: hidden
+  }
+  
+  header .navbar .linkmenu1{
+    visibility: hidden
+}
+
+@media(max-width:720px){
+  
+  header .logo i{
+    visibility: hidden;
+  }
+  
+  header .navbar .linkmenu1{
+    visibility: hidden;
+  }
+  
+  header .hamburguer i{
+ 
+  visibility: visible;
+  z-index:10;
+  }
+  header .navbar .linkmenu2{
+    position: absolute;
+    
+  }
+  header .navbar .linkmenu2 li a i{
+    font-size: 40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
