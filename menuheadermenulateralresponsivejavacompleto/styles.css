@@ -47,9 +47,7 @@ body{
 .header .logohamb .btnmenu{
   visibility: hidden;
 }
-.header .logohamb .btnmenu.ativo{
-  
-}
+
 .header .logohamb a i {
   margin-right: 15px;
   font-size: 30px;
