@@ -392,6 +392,42 @@ box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 background-color: #f88159;
 padding: 15px;
 }
+.menu-cliente{
+  
+  width: 100%;
+  height: 450px;
+  
+}
+.menu-cliente .box-cliente{
+  width: 700px;
+  display: flex;
+  align-items: center;
+  height:450px ;
+  margin: auto;
+}
+.menu-cliente .box-cliente .cliente{
+  border:1px solid #8c8c8c;
+  height: 300px;
+  padding: 70px 15px 0px 15px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #000000;
+  transition: .5s;
+  cursor: pointer;
+}
+.menu-cliente .box-cliente .cliente:hover{
+  position: relative;
+  bottom: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  letter-spacing: 2px;
+}
+.menu-cliente .box-cliente .cliente i{
+  font-size: 70px;
+  position: relative;
+  bottom: 40px;
+  color: #734B3D;
+}
 @media(max-width:800px){
  .header .logohamb #logo{
    position: relative;
